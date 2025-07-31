@@ -5,6 +5,7 @@ import PdfUpload from './components/PdfUpload';
 import ContactForm from './components/ContactForm';
 import { insuranceTypes } from './data/insuranceTypes';
 import { Shield, Users, Award, Clock } from 'lucide-react';
+import AiChatInterface from './components/AiChatInterface';
 
 const App: React.FC = () => {
   return (
@@ -108,6 +109,11 @@ const App: React.FC = () => {
       <section id="upload" className="py-16 bg-neutral-900">
         <PdfUpload />
       </section>
+      {/* AI Chat Interface Section */}
+      <section id="ai-chat" className="py-16 bg-black text-white">
+        <AiChatInterface />
+      </section>
+
 
       {/* Contact Section */}
       <section id="contact" className="py-16 bg-black">

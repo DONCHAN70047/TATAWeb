@@ -25,6 +25,10 @@ const Header: React.FC = () => {
             <a href="#upload" className="text-gray-200 hover:text-primary-400 font-medium transition-colors">
               Upload Documents
             </a>
+            <a href="#ai-chat" className="text-gray-200 hover:text-primary-400 font-medium transition-colors">
+              AI Assistant
+            </a>
+
             <a href="#contact" className="text-gray-200 hover:text-primary-400 font-medium transition-colors">
               Contact
             </a>
